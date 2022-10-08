@@ -5,13 +5,13 @@ fun main() {
     while (true) {
         person = readLine()!!.toString()
         if (person != "Oleksa") {
-            println("Fuck you leaser man")
+            println("Enter")
             counter++
             if (counter == 5){
                 break
             }
         } else {
-            println("Наш батько вчив нас не соромитися наш хуїв")
+            println("Wrong")
             break
         }
     }
